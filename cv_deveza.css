@@ -1,36 +1,51 @@
 body{
-    background-color: rgb(18, 77, 47);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgba(70,78,72,1) 98%);
 }
 
 .corps {
+    margin: 20px 1px 0px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1% 3px;
     grid-template-areas:
           ". ."
           ". ."
           ". .";
-    border-width:1px;
-    border-style:dotted;
-    border-color:black;
     padding-left: 30px;
+    border-radius: 15px;
+background: #953E28;
+-webkit-box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
+box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
       }
      
   
-  h1 {
-    color: white;
-    font-family: Impact, Charcoal, sans-serif;
-    }
+  h1{
+    font-family: Georgia, serif;
+    font-size: 31px;
+    letter-spacing: 0.6px;
+    word-spacing: 1.4px;
+    color: #8FC0A9;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding-left: 30px;
+  }
 
+  h2{
+      
+  }
 .row1 {
     display: grid;
     grid-template-columns: 30% auto auto;
 }
 
 .column1 {
-    background: rgba(67, 88, 160, 0.322);
-    opacity:0.4;
+    background: #696D7D;
+    -moz-background-clip:0.4;
 }
 
 .column3 {
@@ -47,4 +62,14 @@ section{
 
 li{
     list-style: square;
+}
+
+.comp{
+    display: flex;
+flex-flow: row wrap;
+margin-bottom: 10px;
+}
+
+#competences{
+
 }
