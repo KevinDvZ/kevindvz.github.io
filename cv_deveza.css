@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(18, 77, 47);
+}
+.corps {
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1% 3px;
+    grid-template-areas:
+          ". ."
+          ". ."
+          ". .";
+          border-width:1px;
+          border-style:dotted;
+          border-color:black;
+      }
+     }
+  
+  h1 {
+    color: white;
+    }
+  
+  
+
