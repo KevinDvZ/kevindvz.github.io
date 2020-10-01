@@ -1,6 +1,7 @@
 body{
     background-color: rgb(18, 77, 47);
 }
+
 .corps {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,27 +11,40 @@ body{
           ". ."
           ". ."
           ". .";
-          border-width:1px;
-          border-style:dotted;
-          border-color:black;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+    padding-left: 30px;
       }
      
   
   h1 {
     color: white;
+    font-family: Impact, Charcoal, sans-serif;
     }
 
-.row {
+.row1 {
     display: grid;
     grid-template-columns: 30% auto auto;
 }
 
 .column1 {
-    background: red;
+    background: rgba(67, 88, 160, 0.322);
+    opacity:0.4;
 }
 
-.column2 {
-    background: blue;
+.column3 {
+    
 }
-  
 
+.historique{
+    background-color: darkslategray;
+}
+
+section{
+    padding padding-left: 30px;
+}
+
+li{
+    list-style: square;
+}
