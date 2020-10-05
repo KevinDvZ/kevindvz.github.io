@@ -3,7 +3,10 @@ body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgba(70,78,72,1) 98%);
 }
 
-.corps {
+#nomprenom{
+    font-family: 'Abril Fatface', cursive;
+}
+main {
     margin: 20px 1px 0px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -38,23 +41,20 @@ box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17
   h2{
       
   }
-.row1 {
+#row1 {
     display: grid;
     grid-template-columns: 30% auto auto;
 }
 
-.column1 {
+#column1 {
     background: #696D7D;
     -moz-background-clip:0.4;
 }
 
-.column3 {
+#column3 {
     
 }
 
-.historique{
-    background-color: darkslategray;
-}
 
 section{
     padding padding-left: 30px;
@@ -64,12 +64,8 @@ li{
     list-style: square;
 }
 
-.comp{
-    display: flex;
-flex-flow: row wrap;
-margin-bottom: 10px;
-}
 
 #competences{
-
+background-color: aqua;
+float: left;
 }
