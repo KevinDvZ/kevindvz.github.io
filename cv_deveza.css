@@ -5,7 +5,7 @@ header {
 
 #hcol2{
     background: #696D7D;
-    -moz-background-clip:0.4;
+    -moz-background-clip: -0.4;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgb
 .entete{
     font-family: 'Abril Fatface', cursive;
 }
-main {
+#intro{
     margin: 20px 1px 0px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -56,9 +56,7 @@ box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17
 
 
 
-#intro{
-    
-}
+
 
 li{
     list-style: square;
