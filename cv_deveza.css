@@ -2,6 +2,7 @@ header {
     display: grid;
     grid-template-columns: 0.90fr 1.2fr 0.90fr;
     margin-top: 10px ;
+    margin-bottom: 10px;
 }
 
 #hcol2{
@@ -67,14 +68,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgb
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1% 40px;
-    grid-template-areas:
-          ". ."
-          ". ."
-          ". .";
+    gap: 1% 25px;
+  
     padding-left: 30px;
     border-radius: 15px;
-background: #953E28;
+background: #5eccff;
 -webkit-box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
 box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
       }
