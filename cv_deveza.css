@@ -10,6 +10,8 @@ header {
     text-align: center;
 }
 
+
+
 #nomprenom{
         font-family: 'Alfa Slab One', cursive;
         font-size: 30px;
@@ -33,13 +35,9 @@ header {
 }
 
 nav{
-    
-    width: auto;
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
    
 }
 
@@ -55,13 +53,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgb
 
 .entete{
     font-family: 'Abril Fatface', cursive;
+    display: inline;
+    vertical-align: baseline;
 }
-#intro{
+
+.logoetentete{
+    display: inline-block;
+    
+}
+
+.intro{
     margin: 20px 1px 0px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1% 3px;
+    gap: 1% 40px;
     grid-template-areas:
           ". ."
           ". ."
@@ -92,3 +98,37 @@ float: left;
 aside {
     float: left;
 }
+
+.svg-icon1 {
+    width: 3em;
+    height: 3em;
+    vertical-align:sub;
+  }
+  
+  .svg-icon1 path,
+  .svg-icon1 polygon,
+  .svg-icon1 rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon1 circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  .svg-icon2 {
+    width: 3em;
+    height: 3em;
+    vertical-align:sub;
+     }
+  
+  .svg-icon2 path,
+  .svg-icon2 polygon,
+  .svg-icon2 rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon2 circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
