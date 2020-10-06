@@ -1,6 +1,7 @@
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.90fr 1.2fr 0.90fr;
+    margin-top: 10px ;
 }
 
 #hcol2{
@@ -15,6 +16,7 @@ header {
         letter-spacing: 0.8px;
         word-spacing: 1.4px;
         color: #8FC0A9;
+        
           }
 
 #metier{
@@ -22,9 +24,28 @@ header {
         letter-spacing: 0.6px;
         word-spacing: 1.4px;
         color: #10175a;
+        margin-bottom: auto;
     
       }
 
+#junior{
+    margin-top: 3px;
+}
+
+nav{
+    
+    width: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+   
+}
+
+.menu{
+    margin: 3px 3px 3px 3px;
+}
 
 body{
     background: rgb(2,0,36);
