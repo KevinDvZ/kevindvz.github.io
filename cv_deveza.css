@@ -1,132 +1,144 @@
 header {
-    display: grid;
-    grid-template-columns: 0.90fr 1.2fr 0.90fr;
-    margin-top: 10px ;
-    margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 0.9fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#hcol2{
-    background: #696D7D;
-    -moz-background-clip: -0.4;
-    text-align: center;
+#hcol2 {
+  background: #696d7d;
+  -moz-background-clip: -0.4;
+  text-align: center;
 }
 
-
-
-#nomprenom{
-        font-family: 'Alfa Slab One', cursive;
-        font-size: 30px;
-        letter-spacing: 0.8px;
-        word-spacing: 1.4px;
-        color: #8FC0A9;
-        
-          }
-
-#metier{
-        font-size: 30px;
-        letter-spacing: 0.6px;
-        word-spacing: 1.4px;
-        color: #10175a;
-        margin-bottom: auto;
-    
-      }
-
-#junior{
-    margin-top: 3px;
+#nomprenom {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  word-spacing: 1.4px;
+  color: #8fc0a9;
 }
 
-nav{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-   
+#metier {
+  font-size: 30px;
+  letter-spacing: 0.6px;
+  word-spacing: 1.4px;
+  color: #10175a;
+  margin-bottom: auto;
 }
 
-.menu{
-    margin: 3px 3px 3px 3px;
+#junior {
+  margin-top: 3px;
 }
 
-body{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,102,103,1) 0%, rgba(70,78,72,1) 98%);
+nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
-
-.entete{
-    font-family: 'Abril Fatface', cursive;
-    display: inline;
-    vertical-align: baseline;
+.menu {
+  margin: 3px 3px 3px 3px;
 }
 
-.logoetentete{
-    display: inline-block;
-    
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(98, 102, 103, 1) 0%,
+    rgba(70, 78, 72, 1) 98%
+  );
 }
 
-.intro{
-    margin: 20px 1px 0px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 1% 25px;
-  
-    padding-left: 30px;
-    border-radius: 15px;
-background: #5eccff;
--webkit-box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
-box-shadow: -23px 66px rgba(0,0,0,.06) inset,-63px 49px rgba(0,0,0,.06) inset,17px -51px rgba(0,0,0,.06) inset,2px 5px rgba(0,0,0,.2);
-      }
-     
-  
-
-
-
-
-
-li{
-    list-style: square;
+.entete {
+  font-family: "Abril Fatface", cursive;
+  display: inline;
+  vertical-align: baseline;
 }
 
+.logoetentete {
+  display: inline-block;
+}
 
-#competences{
-background-color: aqua;
-float: left;
+.intro {
+  margin: 20px 1px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1% 25px;
+
+  padding-left: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: -23px 66px rgba(0, 0, 0, 0.06) inset,
+    -63px 49px rgba(0, 0, 0, 0.06) inset, 17px -51px rgba(0, 0, 0, 0.06) inset,
+    2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: -23px 66px rgba(0, 0, 0, 0.06) inset,
+    -63px 49px rgba(0, 0, 0, 0.06) inset, 17px -51px rgba(0, 0, 0, 0.06) inset,
+    2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  list-style: square;
+}
+
+#competences {
+  background-color: aqua;
+  float: left;
 }
 
 aside {
-    float: left;
+  float: left;
 }
 
 .svg-icon1 {
-    width: 3em;
-    height: 3em;
-    vertical-align:sub;
-  }
-  
-  .svg-icon1 path,
-  .svg-icon1 polygon,
-  .svg-icon1 rect {
-    fill: #4691f6;
-  }
-  
-  .svg-icon1 circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-  }
+  width: 3em;
+  height: 3em;
+  vertical-align: sub;
+}
 
-  .svg-icon2 {
-    width: 3em;
-    height: 3em;
-    vertical-align:sub;
-     }
-  
-  .svg-icon2 path,
-  .svg-icon2 polygon,
-  .svg-icon2 rect {
-    fill: #4691f6;
-  }
-  
-  .svg-icon2 circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-  }
+.svg-icon1 path,
+.svg-icon1 polygon,
+.svg-icon1 rect {
+  fill: #4691f6;
+}
+
+.svg-icon1 circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.svg-icon2 {
+  width: 3em;
+  height: 3em;
+  vertical-align: sub;
+}
+
+.svg-icon2 path,
+.svg-icon2 polygon,
+.svg-icon2 rect {
+  fill: #4691f6;
+}
+
+.svg-icon2 circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.svg-icon3 {
+  width: 1em;
+  height: 1em;
+  vertical-align: sub;
+}
+
+.svg-icon3 path,
+.svg-icon3 polygon,
+.svg-icon3 rect {
+  fill: #4691f6;
+}
+
+.svg-icon3 circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
