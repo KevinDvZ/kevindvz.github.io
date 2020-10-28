@@ -14,14 +14,14 @@ header {
   font-size: 30px;
   letter-spacing: 0.8px;
   word-spacing: 1.4px;
-  color: #000a35;
+  color: #fcfcfc;
 }
 
 #metier {
   font-size: 30px;
   letter-spacing: 0.6px;
   word-spacing: 1.4px;
-  color: #00810b;
+  color: #5fff6c;
   margin-bottom: auto;
 }
 
@@ -51,7 +51,12 @@ p {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(174, 238, 225);
+  background: linear-gradient(
+    0deg,
+    rgba(174, 238, 225, 1) 0%,
+    rgb(0, 4, 66) 100%
+  );
 }
 
 main {
@@ -67,9 +72,6 @@ main {
 
 #cadre-obj {
   grid-area: obj;
-}
-
-h2 {
 }
 
 h3 {
@@ -105,11 +107,12 @@ address {
   font-size: 30px;
   display: block;
   font-family: "Poppins", sans-serif;
-  margin: 5px auto 10px 10px;
+  margin: 5px auto 0px 10px;
 }
 
 .cadre {
-  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: -3px 5px 7px 0px #000000;
+  box-shadow: -3px 5px 7px 0px #000000;
   display: block;
   padding: 5px 30px 5px 30px;
   border-radius: 15px;

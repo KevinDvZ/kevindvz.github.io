@@ -21,7 +21,7 @@ header {
   font-size: 30px;
   letter-spacing: 0.6px;
   word-spacing: 1.4px;
-  color: #00810b;
+  color: #5fff6c;
   margin-bottom: auto;
 }
 
@@ -51,7 +51,7 @@ p {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(174, 238, 225);
 }
 
 main {
@@ -67,9 +67,6 @@ main {
 
 #cadre-obj {
   grid-area: obj;
-}
-
-h2 {
 }
 
 h3 {
@@ -109,7 +106,8 @@ address {
 }
 
 .cadre {
-  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: -3px 5px 7px 0px #000000;
+  box-shadow: -3px 5px 7px 0px #000000;
   display: block;
   padding: 5px 30px 5px 30px;
   border-radius: 15px;
