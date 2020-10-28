@@ -1,0 +1,102 @@
+header {
+  padding: 30px;
+  text-align: center;
+}
+
+.text-center {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+#nomprenom {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  word-spacing: 1.4px;
+  color: #fcfcfc;
+}
+
+#metier {
+  font-size: 30px;
+  letter-spacing: 0.6px;
+  word-spacing: 1.4px;
+  color: #10175a;
+  margin-bottom: auto;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+p {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  word-spacing: 2.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.menu {
+  margin: 3px 3px 3px 3px;
+}
+
+body {
+  background: rgb(39, 90, 255);
+  background: radial-gradient(#006efd, #fafafa);
+}
+
+main {
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: auto;
+  grid-template-areas: "intro intro ";
+}
+
+.intro {
+  margin: 20px 1px 0px 0px;
+  display: grid;
+  grid-area: intro;
+  gap: 1% 25px;
+
+  padding-left: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.img {
+  width: 30%;
+}
+
+.entete {
+  font-family: "Abril Fatface", cursive;
+  display: block;
+  vertical-align: left;
+  margin-bottom: 15px;
+}
+
+.cadre {
+  -webkit-box-shadow: -3px 5px 7px 0px #000000;
+  box-shadow: -3px 5px 7px 0px #000000;
+  display: block;
+  padding: 5px 30px 5px 30px;
+  border-radius: 15px;
+}
+
+li {
+  list-style: square;
+}
+
+#competences {
+  background-color: aqua;
+  float: left;
+}
+
+aside {
+  float: left;
+}
