@@ -113,12 +113,6 @@ h3 {
   text-align: right;
   position: inline;
 }
-.icone {
-  width: 25px;
-  position: inherit;
-  top: 5px;
-  left: 5px;
-}
 
 .entete {
   font-family: "Abril Fatface", cursive;
@@ -133,7 +127,8 @@ h3 {
   display: block;
   padding: 5px 30px 10px 30px;
   border-radius: 15px;
-  margin-bottom: 15px;
+  border: solid;
+  border-width: 1px;
 }
 
 #skills {
@@ -142,19 +137,14 @@ h3 {
 }
 
 .cadre-jauges {
-  margin-top: 50%;
-  text-align: center;
   display: block;
   position: relative;
 }
-
-.cadre-jauges p {
-  margin-bottom: 5px;
-}
-
-#soft-skills {
-  margin-top: 50%;
-  text-align: center;
+.icone {
+  width: 25px;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
 .progress-circle {
@@ -178,34 +168,14 @@ h3 {
 }
 
 #experiences .cadre {
+  border: none;
   display: block;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
-  background-color: #bfffb731;
-  margin: 25px 25% 15px 25%;
+  background-color: #bfffb794;
+  margin: 25px 50px 50px 50px;
   text-align: center;
 }
 
 #experiences .dates {
   margin: -10px 10px 10px 10px;
-}
-.cadre #competences_exp {
-  display: inline-block;
-  line-height: normal;
-  vertical-align: middle;
-  width: 32%;
-  line-height: 120%;
-  padding: 1px 3px 1px 3px;
-  margin: 5px auto 10px auto;
-  text-align: center;
-  background-color: rgba(197, 197, 197, 0.13);
-}
-
-.cadre #competences_exp2 {
-  display: inline-block;
-  width: 32%;
-  line-height: 120%;
-  padding: 1px 3px 1px 3px;
-  margin: 5px auto 10px auto;
-  text-align: center;
-  background-color: rgba(13, 116, 76, 0.068);
 }

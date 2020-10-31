@@ -142,19 +142,9 @@ h3 {
 }
 
 .cadre-jauges {
-  margin-top: 50%;
   text-align: center;
   display: block;
   position: relative;
-}
-
-.cadre-jauges p {
-  margin-bottom: 5px;
-}
-
-#soft-skills {
-  margin-top: 50%;
-  text-align: center;
 }
 
 .progress-circle {
@@ -190,8 +180,7 @@ h3 {
 }
 .cadre #competences_exp {
   display: inline-block;
-  line-height: normal;
-  vertical-align: middle;
+  vertical-align: baseline;
   width: 32%;
   line-height: 120%;
   padding: 1px 3px 1px 3px;

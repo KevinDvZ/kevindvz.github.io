@@ -141,20 +141,15 @@ h3 {
   z-index: 2;
 }
 
+#soft-skills {
+  margin-top: 50%;
+  text-align: center;
+}
 .cadre-jauges {
   margin-top: 50%;
   text-align: center;
   display: block;
   position: relative;
-}
-
-.cadre-jauges p {
-  margin-bottom: 5px;
-}
-
-#soft-skills {
-  margin-top: 50%;
-  text-align: center;
 }
 
 .progress-circle {

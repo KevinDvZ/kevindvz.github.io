@@ -26,7 +26,6 @@ header {
 }
 
 nav {
-  visibility: hidden;
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -71,33 +70,20 @@ main {
 
 #cadre-obj {
   grid-area: obj;
-  z-index: -5;
 }
 
-.entreprise {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 20px;
-  letter-spacing: 1.8px;
-  word-spacing: -1px;
-  color: #000000;
-  font-weight: 1;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
-}
 h3 {
-  text-align: right;
+  float: right;
 }
 
 #cadre-contact {
   grid-area: contact;
-  z-index: -50;
+  z-index: 3;
 }
 
 #cadre-exp {
   grid-area: exp;
-  z-index: 100;
+  z-index: 3;
 }
 
 .img {
@@ -106,18 +92,6 @@ h3 {
   width: auto;
   margin-right: 5px;
   border-radius: 5px;
-}
-
-.contact-liste li {
-  list-style-type: none;
-  text-align: right;
-  position: inline;
-}
-.icone {
-  width: 25px;
-  position: inherit;
-  top: 5px;
-  left: 5px;
 }
 
 .entete {
@@ -131,9 +105,8 @@ h3 {
 .cadre {
   box-shadow: 0 9px 15px rgba(0, 0, 0, 0.45);
   display: block;
-  padding: 5px 30px 10px 30px;
+  padding: 5px 30px 5px 30px;
   border-radius: 15px;
-  margin-bottom: 15px;
 }
 
 #skills {
@@ -141,20 +114,16 @@ h3 {
   z-index: 2;
 }
 
-.cadre-jauges {
-  margin-top: 50%;
-  text-align: center;
-  display: block;
+.icone {
+  width: 25px;
   position: relative;
+  top: 5px;
+  left: 5px;
 }
 
-.cadre-jauges p {
-  margin-bottom: 5px;
-}
-
-#soft-skills {
-  margin-top: 50%;
-  text-align: center;
+.contact-liste li {
+  list-style-type: none;
+  text-align: right;
 }
 
 .progress-circle {
@@ -175,37 +144,4 @@ h3 {
 
 .progress-masque {
   display: block;
-}
-
-#experiences .cadre {
-  display: block;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
-  background-color: #bfffb731;
-  margin: 25px 25% 15px 25%;
-  text-align: center;
-}
-
-#experiences .dates {
-  margin: -10px 10px 10px 10px;
-}
-.cadre #competences_exp {
-  display: inline-block;
-  line-height: normal;
-  vertical-align: middle;
-  width: 32%;
-  line-height: 120%;
-  padding: 1px 3px 1px 3px;
-  margin: 5px auto 10px auto;
-  text-align: center;
-  background-color: rgba(197, 197, 197, 0.13);
-}
-
-.cadre #competences_exp2 {
-  display: inline-block;
-  width: 32%;
-  line-height: 120%;
-  padding: 1px 3px 1px 3px;
-  margin: 5px auto 10px auto;
-  text-align: center;
-  background-color: rgba(13, 116, 76, 0.068);
 }
