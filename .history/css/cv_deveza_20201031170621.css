@@ -101,25 +101,23 @@ h3 {
 }
 
 .img {
-  max-height: 170px;
-  min-height: 100px;
+  max-height: 100px;
+  min-height: 60px;
   width: auto;
-  margin: 15px auto 15px auto;
-  padding-left: 15%;
-  padding-right: 15%;
-  border-radius: 40%;
+  margin-right: 5px;
+  border-radius: 5px;
 }
 
 .contact-liste li {
   list-style-type: none;
-  text-align: left;
+  text-align: right;
   position: inline;
 }
 .icone {
   width: 25px;
   position: inherit;
-  line-height: normal;
-  vertical-align: middle;
+  top: 5px;
+  left: 5px;
 }
 
 .entete {
@@ -182,7 +180,7 @@ h3 {
 #experiences .cadre {
   display: block;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
-
+  background-color: #bfffb731;
   margin: 25px auto 15px auto;
   text-align: center;
 }

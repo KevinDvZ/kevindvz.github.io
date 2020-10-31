@@ -104,10 +104,8 @@ h3 {
   max-height: 170px;
   min-height: 100px;
   width: auto;
-  margin: 15px auto 15px auto;
-  padding-left: 15%;
-  padding-right: 15%;
-  border-radius: 40%;
+  margin-right: 5px;
+  border-radius: 5px;
 }
 
 .contact-liste li {
@@ -118,8 +116,8 @@ h3 {
 .icone {
   width: 25px;
   position: inherit;
-  line-height: normal;
-  vertical-align: middle;
+  top: 5px;
+  left: 5px;
 }
 
 .entete {
