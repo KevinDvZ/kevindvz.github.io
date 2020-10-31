@@ -68,7 +68,7 @@ main {
     "contact obj obj obj"
     "skills exp exp exp"
     "diplomes exp exp exp"
-    "diplomes passions passions passions";
+    "diplomes passion ";
 }
 
 #cadre-obj {
@@ -227,9 +227,4 @@ progress {
   margin: 5px auto 5px auto;
   text-align: center;
   background-color: rgba(13, 116, 76, 0.068);
-}
-
-div:nth-child(6) {
-  grid-area: passions;
-  text-align: center;
 }

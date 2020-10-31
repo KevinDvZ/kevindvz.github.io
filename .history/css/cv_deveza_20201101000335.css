@@ -229,7 +229,7 @@ progress {
   background-color: rgba(13, 116, 76, 0.068);
 }
 
-div:nth-child(6) {
+.cadre #passions {
   grid-area: passions;
-  text-align: center;
+  background-color: #00810b;
 }
