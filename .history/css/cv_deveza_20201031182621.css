@@ -123,8 +123,8 @@ h3 {
   vertical-align: middle;
 }
 
-#cadre-contact a {
-  text-align: center;
+ul.contact-liste a {
+  margin: 10px auto 10px auto 10px;
 }
 progress {
   margin: 15px 15px 15px 15px;

@@ -123,19 +123,12 @@ h3 {
   vertical-align: middle;
 }
 
-#cadre-contact a {
-  text-align: center;
-}
-progress {
-  margin: 15px 15px 15px 15px;
-}
-
 .entete {
   font-family: "Abril Fatface", cursive;
   font-size: 30px;
   display: block;
   font-family: "Poppins", sans-serif;
-  margin: 5px auto 40px 10px;
+  margin: 5px auto 50px 10px;
 }
 
 .cadre {

@@ -124,7 +124,7 @@ h3 {
 }
 
 #cadre-contact a {
-  text-align: center;
+  margin: 10px auto 10px auto 10px;
 }
 progress {
   margin: 15px 15px 15px 15px;
